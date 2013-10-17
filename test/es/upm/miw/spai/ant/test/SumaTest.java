@@ -22,7 +22,7 @@ public class SumaTest {
 
 	@Test
 	public void aVerSiSumaBien() {
-		assertEquals("Test suma", 3.0, suma.getSuma(1.0, 1.0), 1e-6);
+		assertEquals("Test suma", 2.0, suma.getSuma(1.0, 1.0), 1e-6);
 	}
 
 	@After
